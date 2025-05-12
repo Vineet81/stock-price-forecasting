@@ -23,4 +23,6 @@ jobs:
 
     - name: Streamlit test
       run: |
-        streamlit run app.py --server.headless true --server.enableCORS false
+       streamlit run app.py --server.headless true --server.enableCORS false &
+        sleep 15
+        curl -I http://localhost:8501

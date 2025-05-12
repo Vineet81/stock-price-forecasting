@@ -1,0 +1,7 @@
+{
+	"name": "Stock Price Forecasting",
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"context": ".."
+	}
+}

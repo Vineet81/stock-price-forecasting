@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# Model files (optional - comment if you want to version them)
+models/*.h5
+models/*.pkl
+models/*.joblib
+
+# Data files (optional)
+data/*.csv
+data/*.xlsx
+
+# Environment variables
+.env
+
+# Docker-related
+*.log
+*.pid
+*.tar
+*.bak
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# GitHub Actions artifacts (if any)
+*.coverage
+coverage.xml
+pytest_cache/
+htmlcov/

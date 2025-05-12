@@ -1,3 +1,4 @@
+[Demo Link:](https://stock-price-forecasting-nhn5vitesn3bufoegzhcqx.streamlit.app/)
 # 📈 Stock Price Forecasting App
 
 This project predicts future stock prices using **LSTM** and **ARIMA** models, presented via a simple and interactive **Streamlit web application**. It supports **Docker** deployment and includes **CI/CD** integration via **GitHub Actions**.

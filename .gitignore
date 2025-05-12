@@ -16,14 +16,6 @@ ENV/
 .streamlit/
 logs/
 
-# Model files (optional - comment if you want to version them)
-models/*.h5
-models/*.pkl
-models/*.joblib
-
-# Data files (optional)
-data/*.csv
-data/*.xlsx
 
 # Environment variables
 .env
